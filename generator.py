@@ -49,7 +49,7 @@ class Keys(object):
             data = json.load(outfile)
             public = self.__get64UnCoded__(data['public']) 
             private = self.__get64UnCoded__(data['private']) 
-            return public, private 
+            return (public, private)
 
 def __generatorMain__():
     a = Keys()

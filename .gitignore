@@ -1,0 +1,4 @@
+*.pdf
+decrypt.txt
+encrypt.txt
+/__pycache__
